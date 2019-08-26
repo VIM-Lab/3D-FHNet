@@ -8,12 +8,12 @@ The research field of reconstructing 3D models from 2D images is becoming more a
 We train and validate our model on the ShapeNet dataset. The code of data preprocessing is released and the guideline is coming soon.
 
 # Training
-*To train our network, preprocesses the dataset first:
+* To train our network, preprocesses the dataset first:
 ```
 python preprocess_dataset.py
 ```
 
-*To start training , run:
+* To start training , run:
 ```
 python run.py
 ```
