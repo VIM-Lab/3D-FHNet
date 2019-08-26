@@ -1,0 +1,1 @@
+rm -rf ./models_local/model*

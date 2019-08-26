@@ -1,0 +1,1 @@
+sh scripts/jupyter.sh

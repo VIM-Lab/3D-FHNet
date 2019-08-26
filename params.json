@@ -1,0 +1,53 @@
+{
+    "MODE": "TRAIN",
+    "DATASET_SIZE": -1,
+    "TRAIN": {
+        "BATCH_SIZE": 4,
+        "EPOCH_COUNT": 40,
+        "TIME_STEP_COUNT": 1,
+        "OPTIMIZER": "ADAM",
+        "GD_LEARN_RATE": 0.1,
+        "ADAM_LEARN_RATE": 0.00001,
+        "ADAM_EPSILON": 1e-08,
+        "VALIDATION_INTERVAL": 200,
+        "SHUFFLE_IMAGE_SEQUENCE": false,
+        "INITIALIZER": "XAVIER",
+        "ENCODER_MODE": "RESIDUAL",
+        "DECODER_MODE": "RESIDUAL",
+        "RNN_MODE": "SIMPLE",
+        "RNN_HIDDEN_SIZE": 128,
+        "RNN_CELL_NUM": 4
+    },
+    "DIRS": {
+        "DATA": "data",
+        "DATA_PREPROCESSED": "data_preprocessed",
+        "OUTPUT": "output",
+        "MODELS_LOCAL": ".\\models_local",
+        "MODELS_REMOTE": "models_remote"
+    },
+    "VIS": {
+        "VALIDATION_STEP": true,
+        "HISTOGRAMS": false,
+        "FEATURE_MAPS": false,
+        "FEATURE_VOXELS": false,
+        "VOXEL_SLICES": false,
+        "KERNELS": false,
+        "SHAPES": true,
+        "ENCODER_PROCESS": false,
+        "DECODER_PROCESS": false,
+        "IMAGE_COUNT": 1
+    },
+    "MISC": {
+        "DNS": "",
+        "KEY": "",
+        "USER": ""
+    },
+    "SESSIONS": {
+        "ROBUST": "",
+        "LONGEST": "",
+        "BEST": "",
+        "LSTM": "",
+        "HISTOGRAM": "",
+        "CUR_DIR": ""
+    }
+}
